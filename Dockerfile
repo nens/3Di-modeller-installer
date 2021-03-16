@@ -1,4 +1,4 @@
-FROM makensis:latest
+FROM wheatstalk/makensis:latest
 
 RUN dpkg --add-architecture i386 \ 
     && apt-get update \
